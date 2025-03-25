@@ -1,0 +1,135 @@
+{
+  "id": "evt_3QaClpGHOESlzylt1CcHYpJD",
+  "object": "event",
+  "api_version": "2024-11-20.acacia",
+  "created": 1735203018,
+  "data": {
+    "object": {
+      "id": "ch_3QaClpGHOESlzylt1S6Sn2pB",
+      "object": "charge",
+      "amount": 4356,
+      "amount_captured": 4356,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "",
+          "country": "SG",
+          "line1": "127 Lorong K Telok Kurau",
+          "line2": "01-01",
+          "postal_code": "425766",
+          "state": ""
+        },
+        "email": "steven_u@yahoo.com",
+        "name": "Steven Yew",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SUAVESTEPS",
+      "captured": true,
+      "created": 1735203017,
+      "currency": "sgd",
+      "customer": "cus_RT93Jg974uPYLK",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QaClpGHOESlzylt1g9HlYRq",
+      "payment_method": "pm_1QaCloGHOESlzyltiUBJCCz1",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 4356,
+          "authorization_code": "002748",
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "SG",
+          "exp_month": 12,
+          "exp_year": 2031,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "MtfobqWluiPQZgHD",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "1639",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "304361318183263",
+          "overcapture": {
+            "maximum_amount_capturable": 4356,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "5280",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRU0JwMUdIT0VTbHp5bHQoy7G0uwYyBoh801xGyjosFkpvX-t8zsjWIBU6uPke8za3pe3n69BjT6UB_8eoLRvq55W6g8xps3YTgkE",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_HVPjKSAu3bf40b",
+    "idempotency_key": "18577d7a-275a-4825-8a80-c9bf25d8ec4f"
+  },
+  "type": "charge.succeeded"
+}

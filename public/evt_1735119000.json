@@ -1,0 +1,135 @@
+{
+  "id": "evt_3QZqupGHOESlzylt0Lpi1KKR",
+  "object": "event",
+  "api_version": "2024-11-20.acacia",
+  "created": 1735119010,
+  "data": {
+    "object": {
+      "id": "ch_3QZqupGHOESlzylt0B3MLceB",
+      "object": "charge",
+      "amount": 1187,
+      "amount_captured": 1187,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Hamrun",
+          "country": "MT",
+          "line1": "San Guzepp",
+          "line2": "570 San Guzepp Il Hamrun ",
+          "postal_code": "Svr 1018",
+          "state": ""
+        },
+        "email": "camillerixyle15@gmail.com",
+        "name": "Xyle Camilleri",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SUAVESTEPS",
+      "captured": true,
+      "created": 1735119008,
+      "currency": "eur",
+      "customer": "cus_RSmTyQYmyoXa4t",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QZqupGHOESlzylt0yB6CPbm",
+      "payment_method": "pm_1QZqupGHOESlzylt4r2yyg3F",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 1187,
+          "authorization_code": "W85241",
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "MT",
+          "exp_month": 12,
+          "exp_year": 2031,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "w50eSeSgHJucxi5r",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "1032",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "484360342081507",
+          "overcapture": {
+            "maximum_amount_capturable": 1187,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "1812",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRU0JwMUdIT0VTbHp5bHQooqGvuwYyBlQPnv22ezosFjfh-IJI7k9WozsZibHfXS2KEj0SCmhUXgYTLIxPsZ-UZxJe_Ds3lNPxhuI",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_9igaIgmhaoyufY",
+    "idempotency_key": "92acf748-78ca-4204-a4f0-3198c314d46c"
+  },
+  "type": "charge.succeeded"
+}

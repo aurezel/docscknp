@@ -1,0 +1,56 @@
+{
+    "name": "topthink/think",
+    "description": "the new thinkphp framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "5.1.*",
+        "stripe/stripe-php": "v14.6.0",
+        "authorizenet/authorizenet": "^2.0",
+        "braintree/braintree_php": "^6.7",
+        "globalpayments/php-sdk": "^3.1",
+        "firebase/php-jwt": "^6.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-zip": "*",
+        "ext-ctype": "*",
+        "ext-bcmath": "*",
+        "mobiledetect/mobiledetectlib": "^3.74",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application",
+            "MercadoPago\\": [
+                "src/MercadoPago/",
+                "tests/",
+                "src/MercadoPago/Generic/",
+                "src/MercadoPago/Entities/",
+                "src/MercadoPago/Entities/Shared/"
+            ]
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "topthink/think-installer": true
+        }
+    }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "evt_3QZreZGHOESlzylt0TpyDvST",
+  "object": "event",
+  "api_version": "2024-11-20.acacia",
+  "created": 1735122116,
+  "data": {
+    "object": {
+      "id": "ch_3QZreZGHOESlzylt0W4t3w3D",
+      "object": "charge",
+      "amount": 23678,
+      "amount_captured": 23678,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "IL",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "nataliakay012@hotmail.com",
+        "name": "Natalia Kossov",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SUAVESTEPS",
+      "captured": true,
+      "created": 1735122115,
+      "currency": "ils",
+      "customer": "cus_RSnC8koEaLqfvK",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QZreZGHOESlzylt0o26hytI",
+      "payment_method": "pm_1QZreYGHOESlzyltBgx0kOfR",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 23678,
+          "authorization_code": "236265",
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "IL",
+          "exp_month": 12,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "LlSTldHPxQYFy9Fk",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "7438",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "484360373153110",
+          "overcapture": {
+            "maximum_amount_capturable": 23678,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "challenge",
+            "electronic_commerce_indicator": "05",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "e0cc0563-9772-405a-9e2e-75e434a2fda0",
+            "version": "2.2.0"
+          },
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRU0JwMUdIT0VTbHp5bHQoxLmvuwYyBj-j0gp1TjosFljZGMgGZh30IBdba7AfWeYvlpF0_ADYGRyv59oztearzSNl1kaitu5leBQ",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3QZreZGHOESlzylt0o26hytI-payatt_3QZreZGHOESlzylt0IsDpjPk"
+  },
+  "type": "charge.succeeded"
+}
